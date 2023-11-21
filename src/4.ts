@@ -14,7 +14,7 @@ class Person {
   private key: Key;
 
   constructor(key: Key) {
-    this.key;
+    this.key = key;
   }
 
   getKey(): Key {
